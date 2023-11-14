@@ -1,0 +1,14 @@
+Calina Thalya Santana da Silva- Rm552523
+Ana Paula Nascimento Silva- Rm552513
+Geovana- Rm99646
+Nathan Calsonari-Rm552539
+Leonardo Camargo- 552537
+
+
+O script Python "app.py" é uma aplicação Flask que funciona como backend para gerenciar dados de veículos. Ele se conecta a um banco de dados Oracle e fornece vários endpoints para realizar operações CRUD (Create, Read, Update, Delete) em registros de veículos. Além disso, há uma rota para recuperar informações sobre funcionários (`T_GUISR_FUNCIONARIO`).
+
+O código inclui rotas como `/veiculos` para obter todos os dados de veículos, `/veiculos/<int:id>` para obter dados de um veículo específico por ID, e `/veiculos/status/<string:status>` para obter veículos com um status específico. Há também rotas para criar, atualizar e excluir registros de veículos, bem como uma rota adicional `/funcionarios` para obter dados de funcionários.
+
+O script  "menu.py" inclui manipulação de erros, retornando mensagens de erro em formato JSON em caso de exceções durante operações no banco de dados.
+
+Este script em Python utiliza a biblioteca oracledb para interagir com um banco de dados Oracle. Ele oferece uma interface de linha de comando (CLI) simples para realizar operações CRUD (Create, Read, Update, Delete) em registros de uma tabela chamada T_GUISR_SEGURADO. O script permite criar, ler, atualizar e excluir registros dessa tabela, oferecendo uma interação básica com o banco de dados Oracle por meio da linha de comando.
